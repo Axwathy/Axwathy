@@ -49,7 +49,7 @@ Offline text-to-image generation and anime/cartoon stylization using Fooocus (St
 
 ## Contact
 
-**Email:** saswathy974@gmail.com
+**Email:** saswathy974@gmail.com  
 **LinkedIn:** [linkedin.com/in/aswathy-s-dev](https://www.linkedin.com/in/aswathy-s-dev)
 
 Open to entry-level **Full-Stack**, **Python**, or **Software Engineer** roles.
