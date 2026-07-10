@@ -84,21 +84,7 @@ A Flask web app that analyzes uploaded videos and predicts whether they are real
 
 **Tech:** Python, Flask, TensorFlow/Keras, ResNet50, U-Net, OpenCV, dlib, HTML, CSS
 
----
-
-### [AI Image Generation and Cartoonization](https://github.com/Axwathy/ai-image-cartoonization)
-
-A customized Fooocus/Stable Diffusion XL fork for offline text-to-image generation and cartoon/anime-style outputs.
-
-**Highlights**
-
-- Worked with a Gradio-based SDXL interface for local image generation and stylization.
-- Configured anime and realistic presets, Colab support, Docker setup, launch scripts, and cleaner UI behavior.
-- Explored practical deployment and usage flows for offline generative AI tools.
-
-**Tech:** Python, Gradio, Stable Diffusion XL, Fooocus, Docker, Google Colab
-
----
+--
 
 ## What I Am Focused On
 
