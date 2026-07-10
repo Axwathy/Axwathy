@@ -2,112 +2,174 @@
 
 # Aswathy S
 
-### Full-Stack Developer | Python + Django | Applied AI/ML Systems
+### Full-Stack Developer | Python & Django | Applied AI/ML Systems
 
-I build practical software that connects polished web experiences with strong backend architecture, data workflows, and applied AI. My strongest work is in Python/Django full-stack systems, AI-assisted product features, computer vision, and browser-based interactive applications.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=800&color=4F8CFF&center=true&vCenter=true&width=760&lines=I+build+full-stack+products+with+AI+inside.;Django+APIs.+Next.js+dashboards.+ML+workflows.;Turning+real-world+problems+into+working+software." alt="Typing SVG" />
+</a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Axwathy-181717?style=for-the-badge&logo=github)](https://github.com/Axwathy)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aswathy--s--dev-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aswathy-s-dev)
-[![Email](https://img.shields.io/badge/Email-saswathy974%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saswathy974@gmail.com)
+<br />
+
+<a href="https://github.com/Axwathy">
+  <img src="https://img.shields.io/github/followers/Axwathy?style=for-the-badge&logo=github&label=Followers&color=4f8cff&labelColor=3f3f46" alt="GitHub followers" />
+</a>
+<a href="https://github.com/Axwathy?tab=repositories">
+  <img src="https://img.shields.io/badge/Public%20Repos-4-4f8cff?style=for-the-badge&logo=github&labelColor=3f3f46" alt="Public repositories" />
+</a>
+<a href="mailto:saswathy974@gmail.com">
+  <img src="https://img.shields.io/badge/Open%20To-Software%20Roles-ff6b5f?style=for-the-badge" alt="Open to roles" />
+</a>
 
 </div>
 
 ---
 
-## About Me
+## About
 
-I am a Computer Science graduate focused on full-stack development and applied AI systems. My projects show end-to-end ownership: database design, REST APIs, authentication, async processing, deployment configuration, frontend dashboards, model integration, and test coverage.
+I am a Computer Science graduate focused on building practical full-stack software and applied AI systems. My projects combine backend architecture, frontend product workflows, data processing, machine learning, deployment, and testing.
 
-I enjoy building products where AI supports a real workflow instead of sitting as a standalone demo. Recent work includes an AI recruitment SaaS platform with semantic candidate matching, a webcam hand-tracking game, a deepfake video detector, and an SDXL-based image generation setup.
+I like building products where AI supports a real user journey: parsing resumes, ranking candidates, searching semantically, detecting deepfakes, generating interview prep, or turning hand movement into browser gameplay.
 
----
+<div align="center">
 
-## Technical Expertise
-
-| Area | Technologies I have used in projects |
+| | |
 | --- | --- |
-| Languages | Python, JavaScript, TypeScript, SQL, HTML, CSS |
-| Backend | Django, Django REST Framework, Flask, REST APIs, JWT authentication, Pydantic |
-| Frontend | Next.js, React, Tailwind CSS, Canvas 2D, responsive UI development |
-| Databases and Search | PostgreSQL, pgvector, SQLite, Supabase config |
-| AI / ML | TensorFlow, Keras, ResNet50, U-Net, OpenCV, dlib, sentence-transformers, Stable Diffusion XL |
-| Async and Realtime | Celery, Redis, Django Channels, WebSocket-style progress updates |
-| DevOps and Quality | Docker, Docker Compose, Vercel, Railway, GitHub Actions, pytest, Ruff, ESLint, Vitest |
-| Product Domains | Recruitment SaaS, resume parsing, semantic search, deepfake detection, browser computer vision, AI image generation |
+| **Role** | Full-Stack Developer |
+| **Core Stack** | Python, Django, Django REST Framework, Next.js, React, TypeScript |
+| **AI Focus** | Resume intelligence, semantic search, ranking, computer vision, deepfake detection |
+| **Education** | B.Tech, Computer Science Engineering, 2026 |
+| **Strength** | Building end-to-end products from API design to deployed UI |
+| **Status** | Open to entry-level Software Developer, Python Developer, and Full-Stack roles |
+
+</div>
 
 ---
 
 ## Featured Projects
 
-### [SkillScout - AI Recruitment SaaS](https://github.com/Axwathy/SkillScout)
-
-A full-stack AI-assisted recruitment platform for recruiters and candidates. SkillScout includes job management, resume upload and parsing, semantic candidate search, hybrid ranking, interview prep, analytics, notifications, and a hiring pipeline.
-
-**Highlights**
-
-- Built a Django REST Framework backend with 11 domain apps for accounts, organizations, jobs, candidates, AI ranking, pipeline, batch jobs, analytics, notifications, and interviews.
-- Implemented AI-assisted resume intelligence using PDF/DOCX extraction, structured parsing, Pydantic validation, Gemini/Ollama fallback, sentence-transformers, and pgvector.
-- Designed a hybrid ranking system that combines semantic similarity, skill match, and experience match with transparent score breakdowns.
-- Added production-style concerns including HTTP-only JWT cookie auth, CSRF handling, API throttling, OpenAPI docs, Docker Compose, Celery workers, Redis, and deployment configuration.
-- Built a Next.js/React/TypeScript frontend with recruiter dashboards, candidate portal flows, pipeline views, analytics, batch upload, semantic search, and application tracking.
-- Includes 115 backend pytest functions covering authentication, tenant isolation, resume parsing, ranking, semantic search, notifications, analytics, pipeline moves, and batch processing.
-
-**Tech:** Python, Django, DRF, Next.js, React, TypeScript, PostgreSQL, pgvector, Redis, Celery, Docker, Tailwind CSS
-
----
-
-### [Zlice - Webcam Hand-Tracking Game](https://github.com/Axwathy/Zlice)
-
-A browser-based fruit-slicing game controlled by webcam hand movement. The game runs entirely in the browser and uses MediaPipe hand landmarks to track the player's index fingertip.
-
-**Highlights**
-
-- Integrated MediaPipe Tasks Vision for real-time single-hand tracking in the browser.
-- Built Canvas 2D rendering for fruit, bombs, slice trails, fruit halves, particles, score state, timer state, and responsive scaling.
-- Implemented fingertip smoothing, swipe velocity detection, point-to-segment collision math, combo scoring, bomb penalties, and localStorage high scores.
-- Added a focused Vitest suite with 30 tests for tracker math, slice detection, physics, spawning behavior, and entity state.
-
-**Tech:** JavaScript ES Modules, HTML, CSS, Canvas 2D, MediaPipe Tasks Vision, Vitest, Netlify
-
----
-
-### [TruthSight - Deepfake Video Detection](https://github.com/Axwathy/truthsight-deepfake-detection)
-
-A Flask web app that analyzes uploaded videos and predicts whether they are real or fake using a frame-processing deep learning pipeline.
-
-**Highlights**
-
-- Built a video upload workflow with validation for MP4, AVI, MOV, MKV, and WEBM files up to 500 MB.
-- Used OpenCV to sample video frames, dlib to detect faces, optional U-Net enhancement to improve frame quality, and a ResNet50 classifier for real/fake prediction.
-- Aggregated frame-level predictions through majority voting and returned confidence, processed-frame counts, face counts, and final verdict.
-- Documented model evaluation results including reported 99.56% accuracy with enhancement.
-
-**Tech:** Python, Flask, TensorFlow/Keras, ResNet50, U-Net, OpenCV, dlib, HTML, CSS
-
---
-
-## What I Am Focused On
-
-- Building production-ready Python/Django systems with clean API boundaries.
-- Applying AI to useful product workflows such as resume parsing, semantic search, ranking, and content generation.
-- Improving frontend quality with responsive dashboards, clear UX, and reliable client-side state.
-- Strengthening deployment, testing, and performance practices across full-stack applications.
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Axwathy&show_icons=true&hide_border=true&count_private=true" height="155" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Axwathy&layout=compact&hide_border=true&langs_count=8" height="155" alt="Top languages" />
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Axwathy/SkillScout">SkillScout - AI Recruitment SaaS</a></h3>
+      <p>Full-stack recruitment platform with candidate portal, recruiter dashboards, resume parsing, semantic search, transparent candidate ranking, interview prep, analytics, notifications, and batch screening.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+        <img src="https://img.shields.io/badge/DRF-b30000?style=flat-square&logo=django&logoColor=white" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/pgvector-5B8DEF?style=flat-square" />
+        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" />
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/stars/Axwathy/SkillScout?style=flat-square&logo=github&label=stars&color=4f8cff" />
+        <img src="https://img.shields.io/github/last-commit/Axwathy/SkillScout?style=flat-square&label=last%20commit&color=4f8cff" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Axwathy/Zlice">Zlice - Webcam Hand-Tracking Game</a></h3>
+      <p>Browser fruit-slicing game controlled by webcam hand movement. Uses MediaPipe landmarks, fingertip smoothing, swipe velocity detection, Canvas 2D rendering, combo scoring, particles, and local high scores.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" />
+        <img src="https://img.shields.io/badge/Canvas%202D-ff7f50?style=flat-square" />
+        <img src="https://img.shields.io/badge/MediaPipe-00AEEF?style=flat-square" />
+        <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
+        <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" />
+      </p>
+      <p>
+        <a href="https://zlice.netlify.app/"><img src="https://img.shields.io/badge/live-demo-00C7B7?style=flat-square&logo=netlify&logoColor=white" /></a>
+        <img src="https://img.shields.io/github/stars/Axwathy/Zlice?style=flat-square&logo=github&label=stars&color=4f8cff" />
+        <img src="https://img.shields.io/github/last-commit/Axwathy/Zlice?style=flat-square&label=last%20commit&color=4f8cff" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/Axwathy/truthsight-deepfake-detection">TruthSight - Deepfake Detection</a></h3>
+      <p>Flask web app for video deepfake detection. Samples frames with OpenCV, detects faces with dlib, optionally enhances frames with U-Net, classifies with ResNet50, and aggregates results by majority vote.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+        <img src="https://img.shields.io/badge/ResNet50-ff6b5f?style=flat-square" />
+        <img src="https://img.shields.io/badge/U--Net-7c3aed?style=flat-square" />
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/stars/Axwathy/truthsight-deepfake-detection?style=flat-square&logo=github&label=stars&color=4f8cff" />
+        <img src="https://img.shields.io/github/last-commit/Axwathy/truthsight-deepfake-detection?style=flat-square&label=last%20commit&color=4f8cff" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Contact
+## Tech Stack
 
-- Email: [saswathy974@gmail.com](mailto:saswathy974@gmail.com)
-- LinkedIn: [linkedin.com/in/aswathy-s-dev](https://www.linkedin.com/in/aswathy-s-dev)
-- GitHub: [github.com/Axwathy](https://github.com/Axwathy)
+<div align="center">
 
-Open to entry-level Full-Stack Developer, Python Developer, Software Engineer, and AI application development roles.
+<img src="https://skillicons.dev/icons?i=python,js,ts,django,flask,react,nextjs,tailwind,html,css,postgres,redis,docker,git,github,vercel&perline=8" alt="Tech stack icons" />
+
+<br /><br />
+
+### AI / ML
+
+![TensorFlow](https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/KERAS-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OPENCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Gemini API](https://img.shields.io/badge/GEMINI%20API-7C3AED?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Sentence Transformers](https://img.shields.io/badge/SENTENCE%20TRANSFORMERS-4F8CFF?style=for-the-badge)
+
+### Platforms & Tools
+
+![Supabase](https://img.shields.io/badge/SUPABASE-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GITHUB%20ACTIONS-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/RAILWAY-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/POSTMAN-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+</div>
+
+---
+
+## GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Axwathy&theme=tokyonight&hide_border=true&border_radius=8&card_width=760" alt="GitHub streak stats" />
+
+<br /><br />
+
+<img src="https://github-readme-stats.vercel.app/api?username=Axwathy&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&card_width=370" height="170" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Axwathy&layout=compact&hide_border=true&theme=tokyonight&langs_count=8&card_width=370" height="170" alt="Top languages" />
+
+</div>
+
+---
+
+## Beyond Code
+
+> I care about building software that feels complete: clear architecture, useful features, readable documentation, tested logic, and a professional presentation that helps people understand the value quickly.
+
+---
+
+## Let's Connect
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/aswathy-s-dev">
+  <img src="https://img.shields.io/badge/LINKEDIN-ASWATHY%20S-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:saswathy974@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-SASWATHY974%40GMAIL.COM-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://github.com/Axwathy">
+  <img src="https://img.shields.io/badge/GITHUB-AXWATHY-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+
+<br /><br />
+
+Thanks for stopping by. Always open to conversations about full-stack development, Python, Django, and applied AI projects.
+
+</div>
