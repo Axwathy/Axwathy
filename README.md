@@ -71,7 +71,7 @@ I care about building software that is understandable, usable, tested, and close
         <img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
       </a>
       <a href="https://skillscout-gray.vercel.app/">
-        <img src="https://img.shields.io/badge/Live%20Demo-00C7B7?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
+        <img src="https://img.shields.io/badge/Live%20Demo-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
       </a>
     </td>
     <td width="33%" valign="top" align="center">
@@ -191,16 +191,24 @@ I care about building software that is understandable, usable, tested, and close
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Axwathy&show_icons=true&hide_border=true&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Axwathy&show_icons=true&hide_border=true&theme=default" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Axwathy&show_icons=true&hide_border=true&theme=default" height="165" alt="GitHub stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Axwathy&layout=compact&hide_border=true&theme=dark&langs_count=8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Axwathy&layout=compact&hide_border=true&theme=default&langs_count=8" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Axwathy&layout=compact&hide_border=true&theme=default&langs_count=8" height="165" alt="Top languages" />
-</picture>
+![Followers](https://img.shields.io/github/followers/Axwathy?style=flat-square&logo=github&label=Followers&color=181717)
+
+<br/>
+
+**SkillScout** &nbsp;
+![Stars](https://img.shields.io/github/stars/Axwathy/SkillScout?style=flat-square&logo=github&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/Axwathy/SkillScout?style=flat-square&logo=github&label=Last%20Commit)
+![Top Language](https://img.shields.io/github/languages/top/Axwathy/SkillScout?style=flat-square)
+
+**Zlice** &nbsp;
+![Stars](https://img.shields.io/github/stars/Axwathy/Zlice?style=flat-square&logo=github&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/Axwathy/Zlice?style=flat-square&logo=github&label=Last%20Commit)
+![Top Language](https://img.shields.io/github/languages/top/Axwathy/Zlice?style=flat-square)
+
+**TruthSight** &nbsp;
+![Stars](https://img.shields.io/github/stars/Axwathy/truthsight-deepfake-detection?style=flat-square&logo=github&label=Stars)
+![Last Commit](https://img.shields.io/github/last-commit/Axwathy/truthsight-deepfake-detection?style=flat-square&logo=github&label=Last%20Commit)
+![Top Language](https://img.shields.io/github/languages/top/Axwathy/truthsight-deepfake-detection?style=flat-square)
 
 <br/>
 
