@@ -71,7 +71,7 @@ I care about building software that is understandable, usable, tested, and close
         <img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
       </a>
       <a href="https://skillscout-gray.vercel.app/">
-        <img src="https://img.shields.io/badge/Live%20Demo-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
+        <img src="https://img.shields.io/badge/Live%20Demo-00C7B7?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
       </a>
     </td>
     <td width="33%" valign="top" align="center">
