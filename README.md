@@ -1,55 +1,127 @@
+<div align="center">
+
 # Aswathy S
 
-**Full-Stack Developer · AI/ML Systems · B.Tech CS 2026 (APJ Abdul Kalam Technological University)**
+### Full-Stack Developer | Python + Django | Applied AI/ML Systems
 
-I build production-grade web applications and applied ML systems end to end — from database design and REST APIs to deployed frontends. My work spans Django/Next.js full-stack platforms and deep learning pipelines for real-world problems.
+I build practical software that connects polished web experiences with strong backend architecture, data workflows, and applied AI. My strongest work is in Python/Django full-stack systems, AI-assisted product features, computer vision, and browser-based interactive applications.
 
----
+[![GitHub](https://img.shields.io/badge/GitHub-Axwathy-181717?style=for-the-badge&logo=github)](https://github.com/Axwathy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aswathy--s--dev-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aswathy-s-dev)
+[![Email](https://img.shields.io/badge/Email-saswathy974%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saswathy974@gmail.com)
 
-## Tech Stack
-
-**Frontend:** Next.js · React · TypeScript · HTML · CSS
-
-**Backend:** Python · Django · Django REST Framework · Flask
-
-**AI / ML:** TensorFlow · Keras · OpenCV · ResNet50 · U-Net · sentence-transformers · Stable Diffusion XL
-
-**Data & Infrastructure:** PostgreSQL · pgvector · Redis · Celery · Docker · Git
+</div>
 
 ---
 
-## Projects
+## About Me
 
-### [TruthSight — Deepfake Video Detection](https://github.com/Axwathy/truthsight-deepfake-detection)
-Two-stage pipeline: U-Net-based frame enhancement followed by ResNet50 face classification. Achieves **99.56% accuracy on DFDC**. Built end to end in TensorFlow/Keras with a Flask API layer.
+I am a Computer Science graduate focused on full-stack development and applied AI systems. My projects show end-to-end ownership: database design, REST APIs, authentication, async processing, deployment configuration, frontend dashboards, model integration, and test coverage.
 
-### [SkillScout — AI Recruitment SaaS](https://github.com/Axwathy/skillscout-recruitment-saas)
-Multi-tenant recruitment platform with explainable candidate ranking, semantic resume search (pgvector), and async LLM-powered resume parsing via Celery. Stack: Django REST Framework + Next.js + PostgreSQL.
-
-### [AI Image Generation & Cartoonization](https://github.com/Axwathy/ai-image-cartoonization)
-Offline text-to-image generation and anime/cartoon stylization using Fooocus (Stable Diffusion XL). Runs entirely locally with a Gradio interface — no external API calls.
+I enjoy building products where AI supports a real workflow instead of sitting as a standalone demo. Recent work includes an AI recruitment SaaS platform with semantic candidate matching, a webcam hand-tracking game, a deepfake video detector, and an SDXL-based image generation setup.
 
 ---
 
-## Currently Working On
+## Technical Expertise
 
-- Deepening applied deep learning work: model optimization and deployment patterns
-- Strengthening Python full-stack architecture: scalable API design, async task pipelines
+| Area | Technologies I have used in projects |
+| --- | --- |
+| Languages | Python, JavaScript, TypeScript, SQL, HTML, CSS |
+| Backend | Django, Django REST Framework, Flask, REST APIs, JWT authentication, Pydantic |
+| Frontend | Next.js, React, Tailwind CSS, Canvas 2D, responsive UI development |
+| Databases and Search | PostgreSQL, pgvector, SQLite, Supabase config |
+| AI / ML | TensorFlow, Keras, ResNet50, U-Net, OpenCV, dlib, sentence-transformers, Stable Diffusion XL |
+| Async and Realtime | Celery, Redis, Django Channels, WebSocket-style progress updates |
+| DevOps and Quality | Docker, Docker Compose, Vercel, Railway, GitHub Actions, pytest, Ruff, ESLint, Vitest |
+| Product Domains | Recruitment SaaS, resume parsing, semantic search, deepfake detection, browser computer vision, AI image generation |
+
+---
+
+## Featured Projects
+
+### [SkillScout - AI Recruitment SaaS](https://github.com/Axwathy/SkillScout)
+
+A full-stack AI-assisted recruitment platform for recruiters and candidates. SkillScout includes job management, resume upload and parsing, semantic candidate search, hybrid ranking, interview prep, analytics, notifications, and a hiring pipeline.
+
+**Highlights**
+
+- Built a Django REST Framework backend with 11 domain apps for accounts, organizations, jobs, candidates, AI ranking, pipeline, batch jobs, analytics, notifications, and interviews.
+- Implemented AI-assisted resume intelligence using PDF/DOCX extraction, structured parsing, Pydantic validation, Gemini/Ollama fallback, sentence-transformers, and pgvector.
+- Designed a hybrid ranking system that combines semantic similarity, skill match, and experience match with transparent score breakdowns.
+- Added production-style concerns including HTTP-only JWT cookie auth, CSRF handling, API throttling, OpenAPI docs, Docker Compose, Celery workers, Redis, and deployment configuration.
+- Built a Next.js/React/TypeScript frontend with recruiter dashboards, candidate portal flows, pipeline views, analytics, batch upload, semantic search, and application tracking.
+- Includes 115 backend pytest functions covering authentication, tenant isolation, resume parsing, ranking, semantic search, notifications, analytics, pipeline moves, and batch processing.
+
+**Tech:** Python, Django, DRF, Next.js, React, TypeScript, PostgreSQL, pgvector, Redis, Celery, Docker, Tailwind CSS
+
+---
+
+### [Zlice - Webcam Hand-Tracking Game](https://github.com/Axwathy/Zlice)
+
+A browser-based fruit-slicing game controlled by webcam hand movement. The game runs entirely in the browser and uses MediaPipe hand landmarks to track the player's index fingertip.
+
+**Highlights**
+
+- Integrated MediaPipe Tasks Vision for real-time single-hand tracking in the browser.
+- Built Canvas 2D rendering for fruit, bombs, slice trails, fruit halves, particles, score state, timer state, and responsive scaling.
+- Implemented fingertip smoothing, swipe velocity detection, point-to-segment collision math, combo scoring, bomb penalties, and localStorage high scores.
+- Added a focused Vitest suite with 30 tests for tracker math, slice detection, physics, spawning behavior, and entity state.
+
+**Tech:** JavaScript ES Modules, HTML, CSS, Canvas 2D, MediaPipe Tasks Vision, Vitest, Netlify
+
+---
+
+### [TruthSight - Deepfake Video Detection](https://github.com/Axwathy/truthsight-deepfake-detection)
+
+A Flask web app that analyzes uploaded videos and predicts whether they are real or fake using a frame-processing deep learning pipeline.
+
+**Highlights**
+
+- Built a video upload workflow with validation for MP4, AVI, MOV, MKV, and WEBM files up to 500 MB.
+- Used OpenCV to sample video frames, dlib to detect faces, optional U-Net enhancement to improve frame quality, and a ResNet50 classifier for real/fake prediction.
+- Aggregated frame-level predictions through majority voting and returned confidence, processed-frame counts, face counts, and final verdict.
+- Documented model evaluation results including reported 99.56% accuracy with enhancement.
+
+**Tech:** Python, Flask, TensorFlow/Keras, ResNet50, U-Net, OpenCV, dlib, HTML, CSS
+
+---
+
+### [AI Image Generation and Cartoonization](https://github.com/Axwathy/ai-image-cartoonization)
+
+A customized Fooocus/Stable Diffusion XL fork for offline text-to-image generation and cartoon/anime-style outputs.
+
+**Highlights**
+
+- Worked with a Gradio-based SDXL interface for local image generation and stylization.
+- Configured anime and realistic presets, Colab support, Docker setup, launch scripts, and cleaner UI behavior.
+- Explored practical deployment and usage flows for offline generative AI tools.
+
+**Tech:** Python, Gradio, Stable Diffusion XL, Fooocus, Docker, Google Colab
+
+---
+
+## What I Am Focused On
+
+- Building production-ready Python/Django systems with clean API boundaries.
+- Applying AI to useful product workflows such as resume parsing, semantic search, ranking, and content generation.
+- Improving frontend quality with responsive dashboards, clear UX, and reliable client-side state.
+- Strengthening deployment, testing, and performance practices across full-stack applications.
 
 ---
 
 ## GitHub Stats
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Axwathy&show_icons=true&theme=default&hide_border=true&count_private=true" height="155">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Axwathy&layout=compact&theme=default&hide_border=true&langs_count=8" height="155">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Axwathy&show_icons=true&hide_border=true&count_private=true" height="155" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Axwathy&layout=compact&hide_border=true&langs_count=8" height="155" alt="Top languages" />
 </p>
 
 ---
 
 ## Contact
 
-**Email:** saswathy974@gmail.com  
-**LinkedIn:** [linkedin.com/in/aswathy-s-dev](https://www.linkedin.com/in/aswathy-s-dev)
+- Email: [saswathy974@gmail.com](mailto:saswathy974@gmail.com)
+- LinkedIn: [linkedin.com/in/aswathy-s-dev](https://www.linkedin.com/in/aswathy-s-dev)
+- GitHub: [github.com/Axwathy](https://github.com/Axwathy)
 
-Open to entry-level **Full-Stack**, **Python**, or **Software Engineer** roles.
+Open to entry-level Full-Stack Developer, Python Developer, Software Engineer, and AI application development roles.
