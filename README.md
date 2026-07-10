@@ -70,6 +70,9 @@ I care about building software that is understandable, usable, tested, and close
       <a href="https://github.com/Axwathy/SkillScout">
         <img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
       </a>
+      <a href="https://skillscout-gray.vercel.app/">
+        <img src="https://img.shields.io/badge/Live%20Demo-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
+      </a>
     </td>
     <td width="33%" valign="top" align="center">
       <h3>Zlice</h3>
